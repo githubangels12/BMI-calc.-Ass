@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BMI Result</title>
+  <link rel="stylesheet" href="Fupsin.css">
+  <link rel="stylesheet" href="FupsinA.css">
+</head>
+<body>
+  <div class="cover">
+    <h2 class="bmi">BMI</h2>
+    <p class="bmi1">Your BMI is: <span id="bmiResult"></span></p>
+    <p class="bmi2">BMI Category: <span id="bmiCategory"></span></p>
+  </div>
+
+  <script>
+    const bmi = sessionStorage.getItem('bmi');
+    const bmiCategory = sessionStorage.getItem('bmiCategory');
+
+    document.getElementById('bmiResult').textContent = bmi;
+    document.getElementById('bmiCategory').textContent = bmiCategory;
+  </script>
+</body>
+</html>
+
+
+
+</script>
+</body>
+
+</html>

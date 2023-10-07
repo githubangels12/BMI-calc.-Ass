@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  
+}
+
+.cover{
+    height: 600px;
+    max-width: 25%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+  
+}
+.bmi{
+    height: 4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color:  #ffaf7b ;
+    margin-bottom: 15rem;
+    padding-left: 1rem;
+   
+}
+.bmi1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.bmi2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 2rem;  
+}
